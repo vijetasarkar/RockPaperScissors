@@ -1,53 +1,74 @@
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #2f5755;
-    color: white;
+    background-color: black;
+    color:white;
+    font-family: monospace;
 }
-#userside
+.box
 {
-    background-color:#54c6be;
-    height:auto;
-    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    border-color: white;
+    border-width: 20px;
+    height: 210px;
+    width: 90%;
+    background-color: white;
     color: black;
-    padding:20px;
-    margin:20px;
-    
+    justify-content: center;
+    margin-left: 5%;
 }
 
-.buttons
+.iconify
 {
-    background-color:#54c6be;
-    margin:10px;
-    padding:10px;
-    justify-content: center;
-    color:black;
+    height:60px;
+    width:60px;
+}
+.iconify:hover
+{
+    height:70px;
+    width:70px;
+}
+.b
+{
+    float: left;
+    margin:20px;
+    padding:30px;
+    box-shadow: black;
+    border-color: black;
+    border-width: 20px;
+    margin-top: 5px;
+
 }
 .b1
 {
-    border-radius: 2px;
-    height:70px;
-    width:auto;
-    font-weight: bold;
+    margin-left: 40%;
+}
+.score
+{
+    width:90%;
+    height:200px;
+    background-color: whitesmoke;
+    color: black;
+}
+.comp_response
+{
+    
+    height: 100px;
+    width:100px;
 }
 #endgame
 {
-    background-color: #e5243f;
-    color:white;
-    margin-top: 20px;
+    font-size: 15px;
+}
+#playagain
+{
+    font-size: 25px;
 }
 
-.userscore
-{
-    background-color: #f65c51;
-    
-    padding:20px;
-    margin:10px;
-}
-.computerscore
-{
-    background-color: #f7b15c;
-    
-    padding:20px;
-    margin:10px;
-}
+
+
+@media screen and (max-width: 600px) {
+    .b1 {
+      margin-left:12%;
+    }
+  }
